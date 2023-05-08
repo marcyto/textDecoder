@@ -1,0 +1,140 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: #F3F5FC;
+}
+
+.container{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.input_area{
+  width: 60rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80vh;
+  flex-direction: column;
+  margin-top: 5rem;
+  text-align: left;
+
+}
+.input_area p{
+  color: BLACK;
+
+}
+.obs{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
+.obs p{
+  margin-left: 2rem;
+}
+.input_area textarea{
+  border: none;
+  background: transparent;
+  width: 680px;
+  resize: none;
+  height: 15rem;
+  font-size: 32px;
+  color: #0A3871;
+  margin-top: 2rem;
+  outline: none;
+}
+.btn_area{
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  justify-content: center;
+  gap: 2rem;
+}
+.criptografar_btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 328px;
+  border-radius: 24px;
+  padding: 24px;
+  height: 67px;
+  background-color: #0A3871;
+  font-size: 18px;
+  transition: all 0.5s;
+  color: #FFF;
+}
+.criptografar_btn:hover{
+  background-color: #FFF;
+  color: #0A3871;
+}
+.des{
+  background-color: #FFF;
+  color: #0A3871;
+  border: 1px solid #0A3871;
+  transition: all 0.5s;
+}
+.des:hover{
+  background-color: #0A3871;
+  color: #FFF;
+}
+.txt_area{
+  background-color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  width: 400px;
+  height: 850px;
+  border-radius: 15px;
+  gap: 1rem;
+}
+.txt_area h1{
+  color: black;
+  font-size: 24px;
+}
+.txt_area p{
+  color: black;
+  font-size: 16px;
+}
+.txt_area .img_avatar{
+  width: 336px;
+  height: 304px;
+}
+.img_avatar img{
+  max-width: 100%;
+  max-height:100%;
+  object-fit: cover;
+}
+.txt_area_txt{
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align:left;
+    flex-direction: column;
+    width: 400px;
+    height: 850px;
+    border-radius: 15px;
+    gap: 1rem;
+}
+.txt_area_txt p{
+  margin-top: 1rem;
+  padding: 1rem;
+  color: black;
+  font-size: 24px;
+}
+.txt_area_txt button{
+  margin-bottom: 3rem;
+}
