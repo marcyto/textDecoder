@@ -39,7 +39,7 @@ function App() {
   }
 
   function descriptografa(message){
-    let mensagemDescriptografada = message.replace(/carvao/g, "a").replace(/lata/g, "e").replace(/cerveja/g, "i").replace(/carne/g, "o").replace(/linguica/g, "u");
+    let mensagemDescriptografada = message.replace(/ai/g, "a").replace(/enter/g, "e").replace(/imes/g, "i").replace(/ober/g, "o").replace(/ufat/g, "u");
     setMessageCriptografada(mensagemDescriptografada);
   }
 
